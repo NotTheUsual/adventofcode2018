@@ -1,0 +1,3 @@
+# Advent of Code 2018
+
+Actually committing these to try to keep myself honest...
