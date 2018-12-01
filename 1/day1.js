@@ -13,7 +13,7 @@ function test(input, expected) {
 }
 
 function run() {
-  const input = fs.readFileSync('./input1a.txt', 'utf8')
+  const input = fs.readFileSync('./input1.txt', 'utf8')
   const result = parse(input)
   console.log(`=================
   ${result}
@@ -23,16 +23,16 @@ function run() {
 test(`+1
 +1
 +1`
-,3)
+, 3)
 
 test(`+1
 +1
 -2`
-,0)
+, 0)
 
 test(`-1
 -2
 -3`
-,-6)
+, -6)
 
 run()
